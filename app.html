@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Current Semester</h1>
+        <div id="semester-buttons"></div>
+        <div id="cgpa-calculator" class="hidden">
+            <h2 id="semester-title">CGPA Calculator - Semester</h2>
+            <div id="cgpa-input-section" class="hidden">
+                <button id="input-cgpa-button">Input CGPA till Previous Semester</button>
+                <label id="cgpa-label"></label>
+            </div>
+            <div id="courses-section"></div>
+            <button id="add-course-button">Add Course</button>
+            <button id="calculate-button">Calculate GPA and CGPA</button>
+            <p id="result"></p>
+            <button id="back-button">Go Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
